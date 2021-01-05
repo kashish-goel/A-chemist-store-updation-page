@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<body bgcolor='LightGray'>
+<h2>Company Entry Form</h2>
+<form>
+<table>
+	<tr>
+		<td><label for="comp_i">Comany Id: </label></td>
+		<td><input type="text" id="comp_i" name="comp_i" autocomplete="off" autofocus><i><small>(Upto max 15 characters)</small></i></td>.
+	</tr>
+	<tr>
+		<td><label for="cname">Company Name: </label></td>
+		<td><input type="text" id="cname" name="cname"></td>
+	</tr>
+	<tr>
+		<td><label for="ctype">Company Type: </label></td>
+		<td><select name="ctype">
+			<option value="Choose option">Choose Option</option>
+			<option value="Paid">Paid</option>
+			<option value="Unpaid">Unpaid</option>
+		</select></td>
+	</tr>
+	<tr>
+		<td><label for="address">Address: </label></td>
+		<td><textarea name="message" rows="5" cols="20"></textarea></td>
+	</tr>
+	<tr>
+		<td><button type="button" onclick="alert('Details Added')">Add</button>
+		<button type="button" onclick="alert('Form Updated')">Update</button>
+		<button type="button">Delete</button>
+		<button type="button">View</button></td>
+	</tr>
+</table>
+</form>
+</body>
+</html>

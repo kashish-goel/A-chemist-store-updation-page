@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<body bgcolor='LightGray'>
+<h2>Client Entry Form</h2>
+<form>
+<table>
+	<tr>
+		<td><label for="fname">First Name: </label></td>
+		<td><input type="text" id="fname" name="fname" autocomplete="on" autofocus><i><small>(Upto max 15 characters)</small></i></td>.
+	</tr>
+	<tr>
+		<td><label for="lname">Last Name:</label></td>
+		<td><input type="text" id="lname" name="lname"></td>
+	</tr>
+	<tr>
+		<td><label for="id">ID:</label></td>
+		<td><input type="text" id="id" name="id" autocomplete="on" required></td>
+	</tr>
+	<tr>
+		<td><label for="email">Email:</label></td>
+  		<td><input type="email" id="email" name="email" placeholder="@gmail.com" autocomplete="on"></td>
+	</tr>
+	<tr>
+		<td><label for="gender">Gender: </label></td>
+	</tr>
+	<tr>    <td><input type="radio" id="male" name="gender" value="male">
+  		<label for="male">Male</label><br>
+  		<input type="radio" id="female" name="gender" value="female">
+  		<label for="female">Female</label><br>
+  		<input type="radio" id="other" name="gender" value="other">
+  		<label for="other">Other</label></td>
+	</tr>
+	<tr>
+		<td><button type="button" onclick="alert('Form Submitted')">Submit</button>
+		<input type="reset"></td>
+	</tr>
+</table>
+</form>
+</body>
+</html>
